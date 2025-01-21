@@ -39,7 +39,7 @@ h1, h2{
 }
 
 .header__titulo2 {
-    color: negro;
+    color: blanco;
 }
 
 /* main */
@@ -134,7 +134,7 @@ h1, h2{
     font-family: var(--font-texto);
     padding: 1.25rem;
     text-align: center;
-    color: negro;
+    color: blanco;
 }
 
 /* formulario */
@@ -212,7 +212,7 @@ h1, h2{
 }
 
 .footer__logo--titulo2 {
-    color: negro;
+    color: blanco;
     margin: 0;
 }
 
