@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__contenedor">
+            <h1 class="header__titulo">Alura<span class="header__titulo2">Geek</span></h1>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <!-- Seccion de Mis Productos -->
+        <section class="seccion__productos">
+            <h2 class="productos__titulo">PRODUCTOS:</h2>
+            <ul class="productos__lista" data-lista>
+                <!-- Aqui se agregaran los productos -->
+            </ul>
+        </section>
+        <!-- Seccion del fomulario para agregar productos -->
+        <section class="seccion__formulario">
+            <h2 class="formulario__titulo">AGREGA NUEVOS PRODUCTOS:</h2>
+            <form class="formulario" data-formulario>
+                <input class="formulario__input" type="text" name="nombre" required id="nombre" data-nombre placeholder="Nombre...">
+                <input class="formulario__input" type="number" name="precio" required id="precio" data-precio placeholder="Precio...">
+                <input class="formulario__input" type="url" name="imagen-url" required id="imagen-url" data-imagen placeholder="URL de la imagen...">
+                <div class="formulario__botones">
+                    <button class="formulario__boton" type="submit" data-boton-enviar>Enviar</button>
+                    <button class="formulario__boton formulario__boton--limpiar" type="reset" data-boton-limpiar>Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Logo que va en el footer -->
+        <div class="footer__logo">
+            <h2 class="footer__logo--titulo">Alura<span class="footer__logo--titulo2">Geek</span></h2>
+        </div>
+        <!-- Textos debajo del logo -->
+        <p class="footer__nombre footer__texto">Desarrollado por <a href="https://www.linkedin.com/in/alan-guerra-dwf/" target="_blank">Susana Zea</a></p>
+        <p class="footer__empresa footer__texto">Alura Latam- 2024</p>
+    </footer>
+    <script src="js/mostrar-productos.js" type="module"></script>
+    <script src="js/subir-productos.js" type="module"></script>
+</body>
+</html>
