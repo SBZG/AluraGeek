@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "ef56",
+      "nombre": "GameBoy Advanced",
+      "precio": "434",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Game-Boy-FL.png"
+    },
+    {
+      "id": "9ddb",
+      "nombre": "Calculadora cientifica fx-82MS",
+      "precio": "126",
+      "imagen": "https://www.edu-casio.es/wp-content/uploads/2019/07/82ms2_v2.png"
+    },
+    {
+      "id": "ef48",
+      "nombre": "Iphone 16 pro",
+      "precio": "12000",
+      "imagen": "https://m.media-amazon.com/images/I/61kIMnkfW-L.jpg"
+    },
+    {
+      "id": "d0d9",
+      "nombre": "Tarjeta de video rtx 1670",
+      "precio": "5000",
+      "imagen": "https://www.tecnologianueva.com.mx/wp-content/uploads/2023/10/La-eleccion-de-una-buena-tarjeta-de-video.jpg"
+    }
+  ]
+}
