@@ -1,7 +1,7 @@
-/* Importacion de las fuentes */
+/* Importacion de fuentes */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
 
-/* Creacion de las variables globales */
+/* variables globales */
 :root {
     --font-titulo: "Press Start 2P", system-ui;
     --font-texto: "IBM Plex Mono", monospace;
@@ -10,14 +10,14 @@
     --color-card: #73F0BA;
 }
 
-/* Estilos globales */
+/* global */
 h1, h2{
     font-family: var(--font-titulo);
     font-size: 1.5rem;
     text-align: center;
 }
 
-/* Estilos del header */
+/* header */
 .header {
     height: 6rem;
     background: var(--color-primario);
@@ -39,10 +39,10 @@ h1, h2{
 }
 
 .header__titulo2 {
-    color: red;
+    color: negro;
 }
 
-/* Estilos del main */
+/* main */
 .main {
     display: flex;
     padding: 3.125rem 1.875rem;
@@ -50,7 +50,7 @@ h1, h2{
     justify-content: center;
 }
 
-/* Sección de productos */
+/* productos */
 .seccion__productos {
     height: auto;
     width: 100%; 
@@ -134,10 +134,10 @@ h1, h2{
     font-family: var(--font-texto);
     padding: 1.25rem;
     text-align: center;
-    color: red;
+    color: negro;
 }
 
-/* Seccion del formulario */
+/* formulario */
 .seccion__formulario{
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@ h1, h2{
     color: var(--color-secundario);
 }
 
-/* Estilos del footer */
+/* footer */
 .footer {
     height: auto;
     padding: 1.25rem;
@@ -212,7 +212,7 @@ h1, h2{
 }
 
 .footer__logo--titulo2 {
-    color: red;
+    color: negro;
     margin: 0;
 }
 
@@ -234,12 +234,12 @@ h1, h2{
     font-weight: 200;
 }
 
-/* Version para pantallas pequeñas */
+/* pantallas pequeñas */
 @media (max-width: 768px) {
     body, html {
         padding: 0;
         margin: 0;
-        overflow-x: hidden; /* Evita el scroll horizontal en toda la página */
+        overflow-x: hidden; /* No hay scroll horizontal */
     }
 
     .main {
@@ -277,11 +277,11 @@ h1, h2{
 
     .card {
         width: 100%;
-        max-width: 10rem; /* Límite para que no se haga más grande */
+        max-width: 10rem; /* Límite */
         height: 14rem;
         margin: 0 auto;
         box-sizing: border-box;
-        margin-bottom: 1.25rem; /* Reduce el espacio entre tarjetas */
+        margin-bottom: 1.25rem; /* Reduce */
     }
 
     .card img {
@@ -292,7 +292,7 @@ h1, h2{
     }
 
     .card-container--value img {
-        width: 1.25rem; /* Asegura que el ícono de trash no se haga grande */
+        width: 1.25rem; /* el ícono de trash no se haga grande */
         height: 1.25rem;
         object-fit: contain;
     }
